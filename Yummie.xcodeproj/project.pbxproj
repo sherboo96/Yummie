@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		914F577E270CB50100247FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F577D270CB50100247FFC /* AppDelegate.swift */; };
-		914F5780270CB50100247FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F577F270CB50100247FFC /* SceneDelegate.swift */; };
-		914F5782270CB50100247FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F5781270CB50100247FFC /* ViewController.swift */; };
-		914F5785270CB50100247FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F5783270CB50100247FFC /* Main.storyboard */; };
 		914F5787270CB50800247FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F5786270CB50800247FFC /* Assets.xcassets */; };
 		914F578A270CB50800247FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F5788270CB50800247FFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +15,6 @@
 /* Begin PBXFileReference section */
 		914F577A270CB50100247FFC /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F577D270CB50100247FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		914F577F270CB50100247FFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		914F5781270CB50100247FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		914F5784270CB50100247FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914F5786270CB50800247FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914F5789270CB50800247FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914F578B270CB50800247FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				914F577D270CB50100247FFC /* AppDelegate.swift */,
-				914F577F270CB50100247FFC /* SceneDelegate.swift */,
-				914F5781270CB50100247FFC /* ViewController.swift */,
-				914F5783270CB50100247FFC /* Main.storyboard */,
 				914F5786270CB50800247FFC /* Assets.xcassets */,
 				914F5788270CB50800247FFC /* LaunchScreen.storyboard */,
 				914F578B270CB50800247FFC /* Info.plist */,
@@ -127,7 +118,6 @@
 			files = (
 				914F578A270CB50800247FFC /* LaunchScreen.storyboard in Resources */,
 				914F5787270CB50800247FFC /* Assets.xcassets in Resources */,
-				914F5785270CB50100247FFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +128,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914F5782270CB50100247FFC /* ViewController.swift in Sources */,
 				914F577E270CB50100247FFC /* AppDelegate.swift in Sources */,
-				914F5780270CB50100247FFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		914F5783270CB50100247FFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				914F5784270CB50100247FFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		914F5788270CB50800247FFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +274,6 @@
 				INFOPLIST_FILE = Yummie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +301,6 @@
 				INFOPLIST_FILE = Yummie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
