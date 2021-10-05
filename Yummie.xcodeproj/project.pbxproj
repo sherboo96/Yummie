@@ -50,12 +50,36 @@
 		914F577C270CB50100247FFC /* Yummie */ = {
 			isa = PBXGroup;
 			children = (
-				914F577D270CB50100247FFC /* AppDelegate.swift */,
-				914F5786270CB50800247FFC /* Assets.xcassets */,
-				914F5788270CB50800247FFC /* LaunchScreen.storyboard */,
+				914F5791270CB81800247FFC /* Core */,
+				914F5793270CB82900247FFC /* Scenes */,
+				914F5792270CB82100247FFC /* Resources */,
 				914F578B270CB50800247FFC /* Info.plist */,
 			);
 			path = Yummie;
+			sourceTree = "<group>";
+		};
+		914F5791270CB81800247FFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				914F577D270CB50100247FFC /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		914F5792270CB82100247FFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				914F5788270CB50800247FFC /* LaunchScreen.storyboard */,
+				914F5786270CB50800247FFC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		914F5793270CB82900247FFC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
