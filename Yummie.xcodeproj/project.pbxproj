@@ -7,17 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E845CCA2D3CAF6D47961AA9 /* Pods_Yummie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74E99FCB8F974B10BC41937 /* Pods_Yummie.framework */; };
 		914F577E270CB50100247FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F577D270CB50100247FFC /* AppDelegate.swift */; };
 		914F5787270CB50800247FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F5786270CB50800247FFC /* Assets.xcassets */; };
 		914F578A270CB50800247FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F5788270CB50800247FFC /* LaunchScreen.storyboard */; };
+		914F5797270CD0D600247FFC /* OnBoardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F5795270CD0D600247FFC /* OnBoardingVC.swift */; };
+		914F5798270CD0D600247FFC /* OnBoardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 914F5796270CD0D600247FFC /* OnBoardingVC.xib */; };
+		914F579B270CD0F700247FFC /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F579A270CD0F700247FFC /* OnboardingViewModel.swift */; };
+		914F57A1270CD15400247FFC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57A0270CD15400247FFC /* AppCoordinator.swift */; };
+		914F57A4270CD2B300247FFC /* MainNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57A3270CD2B300247FFC /* MainNavigator.swift */; };
+		914F57A6270CD6FE00247FFC /* BaseWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57A5270CD6FE00247FFC /* BaseWireFrame.swift */; };
+		914F57A8270CD89800247FFC /* OnBoardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57A7270CD89800247FFC /* OnBoardingRouter.swift */; };
+		914F57AC270CF1DF00247FFC /* ViewLoadingXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57AB270CF1DF00247FFC /* ViewLoadingXib.swift */; };
+		914F57B7270CF3EC00247FFC /* UICollectionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57B3270CF3EC00247FFC /* UICollectionEx.swift */; };
+		914F57B8270CF3EC00247FFC /* StackViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57B4270CF3EC00247FFC /* StackViewEx.swift */; };
+		914F57B9270CF3EC00247FFC /* UITableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57B5270CF3EC00247FFC /* UITableViewEx.swift */; };
+		914F57BA270CF3EC00247FFC /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914F57B6270CF3EC00247FFC /* UIViewEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8458BC55E03BF9727E1831BD /* Pods-Yummie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummie.debug.xcconfig"; path = "Target Support Files/Pods-Yummie/Pods-Yummie.debug.xcconfig"; sourceTree = "<group>"; };
 		914F577A270CB50100247FFC /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F577D270CB50100247FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914F5786270CB50800247FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914F5789270CB50800247FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914F578B270CB50800247FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914F5795270CD0D600247FFC /* OnBoardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVC.swift; sourceTree = "<group>"; };
+		914F5796270CD0D600247FFC /* OnBoardingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingVC.xib; sourceTree = "<group>"; };
+		914F579A270CD0F700247FFC /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		914F57A0270CD15400247FFC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		914F57A3270CD2B300247FFC /* MainNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigator.swift; sourceTree = "<group>"; };
+		914F57A5270CD6FE00247FFC /* BaseWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireFrame.swift; sourceTree = "<group>"; };
+		914F57A7270CD89800247FFC /* OnBoardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingRouter.swift; sourceTree = "<group>"; };
+		914F57AB270CF1DF00247FFC /* ViewLoadingXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoadingXib.swift; sourceTree = "<group>"; };
+		914F57B3270CF3EC00247FFC /* UICollectionEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionEx.swift; sourceTree = "<group>"; };
+		914F57B4270CF3EC00247FFC /* StackViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewEx.swift; sourceTree = "<group>"; };
+		914F57B5270CF3EC00247FFC /* UITableViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewEx.swift; sourceTree = "<group>"; };
+		914F57B6270CF3EC00247FFC /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		C1548B2D4B242DA9C3D43AAF /* Pods-Yummie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummie.release.xcconfig"; path = "Target Support Files/Pods-Yummie/Pods-Yummie.release.xcconfig"; sourceTree = "<group>"; };
+		C74E99FCB8F974B10BC41937 /* Pods_Yummie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yummie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E845CCA2D3CAF6D47961AA9 /* Pods_Yummie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +65,8 @@
 			children = (
 				914F577C270CB50100247FFC /* Yummie */,
 				914F577B270CB50100247FFC /* Products */,
+				DA0B58542078673EE7E68E0C /* Pods */,
+				BE3B900E9A791544B0FCB071 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +83,8 @@
 			children = (
 				914F5791270CB81800247FFC /* Core */,
 				914F5793270CB82900247FFC /* Scenes */,
+				914F57B1270CF3C300247FFC /* Extensions */,
+				914F579D270CD12400247FFC /* Utilties */,
 				914F5792270CB82100247FFC /* Resources */,
 				914F578B270CB50800247FFC /* Info.plist */,
 			);
@@ -62,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				914F577D270CB50100247FFC /* AppDelegate.swift */,
+				914F57A5270CD6FE00247FFC /* BaseWireFrame.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -78,8 +112,106 @@
 		914F5793270CB82900247FFC /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				914F5794270CD0B700247FFC /* OnBoardingScreen */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		914F5794270CD0B700247FFC /* OnBoardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				914F579F270CD14200247FFC /* Router */,
+				914F579C270CD0FC00247FFC /* CollectionCells */,
+				914F5799270CD0DC00247FFC /* ViewModel */,
+				914F5795270CD0D600247FFC /* OnBoardingVC.swift */,
+				914F5796270CD0D600247FFC /* OnBoardingVC.xib */,
+			);
+			path = OnBoardingScreen;
+			sourceTree = "<group>";
+		};
+		914F5799270CD0DC00247FFC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				914F579A270CD0F700247FFC /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		914F579C270CD0FC00247FFC /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		914F579D270CD12400247FFC /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				914F57A9270CF1B900247FFC /* CustomView */,
+				914F579E270CD13400247FFC /* Coordinator */,
+			);
+			path = Utilties;
+			sourceTree = "<group>";
+		};
+		914F579E270CD13400247FFC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				914F57A0270CD15400247FFC /* AppCoordinator.swift */,
+				914F57A3270CD2B300247FFC /* MainNavigator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		914F579F270CD14200247FFC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				914F57A7270CD89800247FFC /* OnBoardingRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		914F57A9270CF1B900247FFC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				914F57AB270CF1DF00247FFC /* ViewLoadingXib.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		914F57B1270CF3C300247FFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				914F57B2270CF3CC00247FFC /* UIView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		914F57B2270CF3CC00247FFC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				914F57B4270CF3EC00247FFC /* StackViewEx.swift */,
+				914F57B3270CF3EC00247FFC /* UICollectionEx.swift */,
+				914F57B5270CF3EC00247FFC /* UITableViewEx.swift */,
+				914F57B6270CF3EC00247FFC /* UIViewEx.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BE3B900E9A791544B0FCB071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74E99FCB8F974B10BC41937 /* Pods_Yummie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA0B58542078673EE7E68E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8458BC55E03BF9727E1831BD /* Pods-Yummie.debug.xcconfig */,
+				C1548B2D4B242DA9C3D43AAF /* Pods-Yummie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 914F578E270CB50800247FFC /* Build configuration list for PBXNativeTarget "Yummie" */;
 			buildPhases = (
+				33A7A04BCB0D668207C650A1 /* [CP] Check Pods Manifest.lock */,
 				914F5776270CB50100247FFC /* Sources */,
 				914F5777270CB50100247FFC /* Frameworks */,
 				914F5778270CB50100247FFC /* Resources */,
+				4FFC64BD4B5DD8FE13D95825 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914F5798270CD0D600247FFC /* OnBoardingVC.xib in Resources */,
 				914F578A270CB50800247FFC /* LaunchScreen.storyboard in Resources */,
 				914F5787270CB50800247FFC /* Assets.xcassets in Resources */,
 			);
@@ -147,12 +282,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33A7A04BCB0D668207C650A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yummie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFC64BD4B5DD8FE13D95825 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yummie/Pods-Yummie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Yummie/Pods-Yummie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yummie/Pods-Yummie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		914F5776270CB50100247FFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914F57B9270CF3EC00247FFC /* UITableViewEx.swift in Sources */,
+				914F57A1270CD15400247FFC /* AppCoordinator.swift in Sources */,
 				914F577E270CB50100247FFC /* AppDelegate.swift in Sources */,
+				914F57B7270CF3EC00247FFC /* UICollectionEx.swift in Sources */,
+				914F57A4270CD2B300247FFC /* MainNavigator.swift in Sources */,
+				914F57AC270CF1DF00247FFC /* ViewLoadingXib.swift in Sources */,
+				914F57A6270CD6FE00247FFC /* BaseWireFrame.swift in Sources */,
+				914F57B8270CF3EC00247FFC /* StackViewEx.swift in Sources */,
+				914F579B270CD0F700247FFC /* OnboardingViewModel.swift in Sources */,
+				914F5797270CD0D600247FFC /* OnBoardingVC.swift in Sources */,
+				914F57A8270CD89800247FFC /* OnBoardingRouter.swift in Sources */,
+				914F57BA270CF3EC00247FFC /* UIViewEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +476,7 @@
 		};
 		914F578F270CB50800247FFC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8458BC55E03BF9727E1831BD /* Pods-Yummie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +504,7 @@
 		};
 		914F5790270CB50800247FFC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1548B2D4B242DA9C3D43AAF /* Pods-Yummie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
