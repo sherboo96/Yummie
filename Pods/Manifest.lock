@@ -1,0 +1,30 @@
+PODS:
+  - CHIPageControl/Jaloro (0.2)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+
+DEPENDENCIES:
+  - CHIPageControl/Jaloro
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - CHIPageControl
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+
+PODFILE CHECKSUM: d56b2b4615c3c6c8080f0c7a0d992551fe1bb764
+
+COCOAPODS: 1.11.2
