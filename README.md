@@ -1,5 +1,7 @@
 # Yummie
-## Food Order
+> Order food
+
+## Logic
 
 > - MVVM Data binding with RxSwift.
 > - Custom Views.
